@@ -1,0 +1,21 @@
+{
+    "name": "orange/orange_money",
+    "description": "allows to integrate payment by orange money with laravel it'is very easy to use !!!",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moussa Ba",
+            "email": "bamoussa220@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orange\\Orange_Money\\": "src/"
+        }
+    }
+}
